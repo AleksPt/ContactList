@@ -7,9 +7,7 @@ struct Person {
     var fullName: String {
         "\(firstName) \(lastName)"
     }
-}
-
-extension Person {
+    
     static func getPerson() -> [Person] {
         var persons: [Person] = []
         
@@ -32,4 +30,3 @@ extension Person {
         return persons
     }
 }
-

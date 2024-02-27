@@ -16,6 +16,8 @@
 		FAD61B3F2B8E08DC00E2AB20 /* DataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B3E2B8E08DC00E2AB20 /* DataStore.swift */; };
 		FAD61B422B8E1B3A00E2AB20 /* PersonsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B412B8E1B3A00E2AB20 /* PersonsListViewController.swift */; };
 		FAD61B442B8E1BC000E2AB20 /* PersonDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B432B8E1BC000E2AB20 /* PersonDetailsViewController.swift */; };
+		FAD61B472B8E2A4C00E2AB20 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B462B8E2A4B00E2AB20 /* TabBarViewController.swift */; };
+		FAD61B4C2B8E393100E2AB20 /* ContactsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAD61B4B2B8E393100E2AB20 /* ContactsListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		FAD61B3E2B8E08DC00E2AB20 /* DataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStore.swift; sourceTree = "<group>"; };
 		FAD61B412B8E1B3A00E2AB20 /* PersonsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsListViewController.swift; sourceTree = "<group>"; };
 		FAD61B432B8E1BC000E2AB20 /* PersonDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonDetailsViewController.swift; sourceTree = "<group>"; };
+		FAD61B462B8E2A4B00E2AB20 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		FAD61B4B2B8E393100E2AB20 /* ContactsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,11 +66,11 @@
 		FAD61B222B8DD7F600E2AB20 /* ContactList */ = {
 			isa = PBXGroup;
 			children = (
-				FAD61B382B8DD81E00E2AB20 /* App */,
 				FAD61B452B8E1BC500E2AB20 /* ViewControllers */,
-				FAD61B372B8DD81000E2AB20 /* Storyboards */,
 				FAD61B3D2B8DED5400E2AB20 /* Models */,
 				FAD61B402B8E08E400E2AB20 /* Services */,
+				FAD61B372B8DD81000E2AB20 /* Storyboards */,
+				FAD61B382B8DD81E00E2AB20 /* App */,
 				FAD61B2C2B8DD7F800E2AB20 /* Assets.xcassets */,
 			);
 			path = ContactList;
@@ -110,8 +114,10 @@
 		FAD61B452B8E1BC500E2AB20 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				FAD61B462B8E2A4B00E2AB20 /* TabBarViewController.swift */,
 				FAD61B412B8E1B3A00E2AB20 /* PersonsListViewController.swift */,
 				FAD61B432B8E1BC000E2AB20 /* PersonDetailsViewController.swift */,
+				FAD61B4B2B8E393100E2AB20 /* ContactsListViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -189,8 +195,10 @@
 			files = (
 				FAD61B3C2B8DEBCE00E2AB20 /* Person.swift in Sources */,
 				FAD61B422B8E1B3A00E2AB20 /* PersonsListViewController.swift in Sources */,
+				FAD61B4C2B8E393100E2AB20 /* ContactsListViewController.swift in Sources */,
 				FAD61B442B8E1BC000E2AB20 /* PersonDetailsViewController.swift in Sources */,
 				FAD61B3F2B8E08DC00E2AB20 /* DataStore.swift in Sources */,
+				FAD61B472B8E2A4C00E2AB20 /* TabBarViewController.swift in Sources */,
 				FAD61B242B8DD7F600E2AB20 /* AppDelegate.swift in Sources */,
 				FAD61B262B8DD7F600E2AB20 /* SceneDelegate.swift in Sources */,
 			);
