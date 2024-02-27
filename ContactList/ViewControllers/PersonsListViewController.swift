@@ -2,7 +2,7 @@ import UIKit
 
 final class PersonsListViewController: UITableViewController {
 
-    private var personList = Person.getPerson()
+    var personList: [Person] = []
     
     // MARK: - Navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
